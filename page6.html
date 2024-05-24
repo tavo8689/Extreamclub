@@ -16,7 +16,7 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="#info">Acerca de</a></li>
                 <li><a href="#contacta">Contacto</a></li>
-                <li><a href="page6.html">Log in</a></li>
+                <li><a href="page6.html">Mensajes</a></li>
             </ul>
             <nav id="carrusel">
                 <ul>
@@ -31,17 +31,13 @@
         </nav>
     <h1>Login</h1>
 
-    <form action="login.php" method="post">
+    <form action="https://formsubmit.co/galejandroho80@gmail.com" method="POST">
 
-        <label for="username">Username:</label>
+        <input type="text" name="username" placeholder="Nombre"><br>
 
-        <input type="text" id="username" name="username" required><br>
-
-        <label for="password">Password:</label>
-
-        <input type="password" id="password" name="password" required><br>
-
-        <button type="submit">Login</button>
+        <input type="text" name="correo" placeholder="correo"><br>
+        <textarea name="mensaje" cols="30" rows="10" placeholder="Ingresa tu mensaje"></textarea>
+        <button type="submit">Enviar</button>
 
     </form>
     <footer>
