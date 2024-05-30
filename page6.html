@@ -29,17 +29,36 @@
                 </ul>
             </nav>
         </nav>
-    <h1>Login</h1>
-
-    <form action="https://formsubmit.co/galejandroho80@gmail.com" method="POST">
-
-        <input type="text" name="username" placeholder="Nombre"><br>
-
-        <input type="text" name="correo" placeholder="correo"><br>
-        <textarea name="mensaje" cols="30" rows="10" placeholder="Ingresa tu mensaje"></textarea>
-        <button type="submit">Enviar</button>
-
-    </form>
+        </header>
+        <div class="cuadro">
+            <h2>Contactanos</h2>
+            <form class="clientes" action="guardar.php" method="post" id="contact_form" runat="server" enctype="multipart/form-data">
+               
+                <label for="Nombre">Nombre:</label><br>
+                <input type="text" id="Nombre" name="Nombre" maxlength="30" required> <br>
+       
+                <label for="Apellidos">Apellidos:</label><br>
+                <input type="text" id="Apellidos" name="Apellidos" maxlength="30" required> <br>
+       
+                <label for="Calle">Calle:</label><br>
+                <input type="text" id="Calle" name="Calle" maxlength="30" required> <br>
+                <br>
+       
+                <h3>Que opina de la pagina?</h3>
+                <br>
+                <label for="rating">
+                    <select name="rating" id="">
+                        <option value="Excelente">Excelente</option>
+                        <option value="Buena">Buena</option>
+                        <option value="Mediocre">Mediocre</option>
+                        <option value="Mala">Mala</option>
+                        <option value="Pesima">Pesima</option>
+       
+                    </select><br><br>
+                    <button class="submit" type="submit">Enviar</button>
+                </label>
+            </form>
+        </div>
     <footer>
         <p>Derechos de autor &copy; 220915</p>
         <li><a href="https://www.facebook.com/people/Extramclub/61560275934179/?mibextid=ZbWKwL">Facebook</a></li>
